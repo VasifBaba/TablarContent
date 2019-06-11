@@ -1,0 +1,20 @@
+.panel{
+    padding: 20px;
+    button{
+        padding: 15px 20px;
+        background: greenyellow;
+        border: none;
+        margin: 10px 0;
+    }
+    .tablar{
+        padding: 40px 10px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        opacity: 0;
+        display: none;
+    }
+}
+.active{
+    opacity: 1 !important;
+    display: block !important;
+}
